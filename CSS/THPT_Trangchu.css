@@ -1,0 +1,365 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:peachpuff;
+    width:100%;
+}
+
+img{
+    max-width:400px;
+    max-height:200px
+}
+
+.logo{
+    width:20%;
+}
+.tieude{
+    width:50%;
+}
+.hinh{
+    width:30%;
+}
+
+div.container h1{
+    font-size:30px;
+    color:rgb(235, 27, 44);
+    text-shadow:1px 2px 4px black;
+    text-align: center;
+}
+
+div.container
+{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav> ul.menu{
+    display:flex;
+}
+
+nav{
+  background-color:rgb(2, 139, 2);
+  margin-bottom:5px;
+}
+ul.menu{
+    list-style-type: none;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+nav>ul.menu >li{
+    text-align: center;
+    width:16.6%;
+    border-right: 1px solid white;
+    position: relative;
+}
+
+nav>ul.menu >li:last-child {
+  border: none;
+}
+
+ul.menu>li>a{
+    display:block;
+    text-decoration: none;
+    color:white;
+    padding:10px;  
+}
+
+ul.menu>li>a>img{
+    width:20px;
+}
+ul.menu>li>a>span{
+    display:block;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+nav>ul.menu>li>a:hover{
+    text-decoration: none;
+    background-color:rgb(235, 27, 44);
+    color:yellow;
+}
+
+input[type=text] {
+    background-color: white;
+    color: black;
+    outline:none;
+    box-sizing: border-box;
+  }
+
+  input[type=text]:focus {
+    width: 75%;
+  }
+
+/*div> button img{
+    width:10px;
+   }
+*/
+
+.con {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.subcontent{
+    display: none;
+    background-color:rgb(6, 153, 6);
+    width:70%;
+    z-index: 999;
+    font-size:10px ;
+    font-weight: bold;
+}
+
+.subcontent::after{
+     content:" ";
+     border-width: 10px;
+     border-style:solid;
+     border-color: transparent transparent rgb(6, 153, 6) transparent;
+     position:absolute;
+     bottom:100%;
+     left:30%;
+}
+
+.sub:hover .subcontent{
+    display: block;
+    position:absolute;
+} 
+
+ul.subcontent>li>a:hover{
+    background-color: yellow;
+    color:blue;
+}
+
+/*nav*/
+nav{
+    margin-bottom:5px;
+}
+
+div.act h1{
+    font-size: 12px;
+}
+div.act{
+    color:crimson;
+    background-color:lightblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.gioithieu{
+    background-color:mistyrose;
+    padding:5px 10px;
+}
+div.gioithieu>h1{
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+    text-align:center;
+}
+
+.slideshow {
+    width: 1000px;
+    margin:10px 400px 10px 400px;
+  }
+
+  div.slideshow>img{
+    width:1000px;
+  }
+
+  .Time{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color:red;
+  }
+
+
+ul.menu >li:last-child {
+    border-right: none;/*xóa dấu border cuối cùng của phần menu*/
+}
+/*aside*/
+
+section.ads > div:first-child{
+    left:1%;
+ }
+
+section.ads > div:last-child{
+    right:1%;
+ }
+
+section.ads > div{
+    background-image: url(../Pictures/banner.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width:13%;
+    height:500px;
+    position: absolute;
+    top:600px;
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 5px yellow;
+}
+
+  /* section thứ 2*/
+
+
+.con.second {
+    width: 100%;
+}
+
+.second > h2 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 20px;
+    /*border-bottom: 2px solid saddlebrown;*/
+    background-color: lightblue;
+    padding: 10px;
+}
+
+div.Dang-doan{
+    width:100%;
+    display: flex;
+}
+
+div.Dang-doan>div{
+    width:30%;
+    margin:0 20px;
+}
+
+div.Dang-doan>div img{
+    width:100%;
+}
+
+
+
+td {
+    font-size: 16px;
+}
+
+section.consecond {
+    display: flex;
+}
+
+table td{
+    padding: 5px;
+}
+
+table td:first-child{
+    color:red;
+    font-weight: bold;
+}
+
+
+section.consecond > iframe {
+    margin-left: auto;
+}
+
+div.hdd {
+    display: flex;
+}
+
+div.hdd > div {
+    margin: 10px;
+}
+
+div.hdd > div > h3 {
+    text-transform: uppercase;
+    color: darkcyan;
+}
+
+div.hdd img {
+    transition: transform 0.5;
+}
+
+div.hdd img:hover {
+    transform: scale(1.12,1.12);
+}
+
+.footer{
+    position: fixed;
+}
+
+.foot{
+    background-color:peachpuff;
+    display:flex;
+    justify-content:space-between;
+}
+
+div.foot h2{
+    color:red;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div.caunoi{
+    background-image: url(../Pictures/totnghiep2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding:90px 40px;
+}
+
+div.p{
+    background-color: gainsboro;
+    opacity: 0.5;
+    width:100%;
+    font-size: 20px;
+    font-style:italic;
+    font-weight:bold;
+    text-align: center;
+    color:red;
+    border-radius: 10%;
+}
+
+ul.menu1{
+    list-style-type: none;
+    align-items: center; 
+    color: darkgreen;
+}
+
+ul.menu1>li>a{
+    text-decoration: none;
+    color:darkgreen;
+}
+
+ul.menu1>li>a:hover{
+    color:blue;
+}
+
+.foot4{
+    background-color:green;
+    color: white; 
+}
+
+ul.menu2{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-around;
+    padding:0;
+    margin:0;
+}
+
+ul.menu2>li:first-child{
+    font-weight: bold;
+}
+
+/* Định dạng nút mũi tên */
+.toTop {
+    display:none; 
+    bottom: 100px; 
+    right: 10px; 
+    cursor: pointer;  
+    position: fixed; 
+    z-index: 1000;
+    font-size: 60px;
+    color:rgb(2, 139, 2);
+}
+
+
+
+
