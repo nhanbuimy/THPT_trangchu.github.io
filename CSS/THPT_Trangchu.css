@@ -58,10 +58,6 @@ nav>ul.menu >li{
     position: relative;
 }
 
-nav>ul.menu >li:last-child {
-  border: none;
-}
-
 ul.menu>li>a{
     display:block;
     text-decoration: none;
@@ -84,7 +80,7 @@ nav>ul.menu>li>a:hover{
     color:yellow;
 }
 
-input[type=text] {
+/*input[type=text] {
     background-color: white;
     color: black;
     outline:none;
@@ -94,6 +90,7 @@ input[type=text] {
   input[type=text]:focus {
     width: 75%;
   }
+  */
 
 /*div> button img{
     width:10px;
@@ -134,11 +131,6 @@ ul.subcontent>li>a:hover{
     color:blue;
 }
 
-/*nav*/
-nav{
-    margin-bottom:5px;
-}
-
 div.act h1{
     font-size: 12px;
 }
@@ -176,8 +168,6 @@ div.gioithieu>h1{
     font-weight: bold;
     color:red;
   }
-
-
 ul.menu >li:last-child {
     border-right: none;/*xóa dấu border cuối cùng của phần menu*/
 }

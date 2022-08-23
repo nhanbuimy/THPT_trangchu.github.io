@@ -1,0 +1,121 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    background: linear-gradient(lightpink,pink,lightpink);
+    flex-direction: column;
+    justify-content: center;
+} 
+div.logo{
+    display: none;
+}
+.tieude{
+    text-align: center;
+    width: 100%;
+    color: blue !important;
+}
+.hinh{
+    display: none;
+}
+h1 {
+    font-size:20px;
+}
+img {
+    width: 100%;
+}
+ul.menu > li span {
+    font-size: 16px;
+    color: lightcyan;
+    padding: 5px 0;
+}
+nav>ul.menu >li{
+    border: none;
+}
+.con {
+    width: 100%;
+}
+.gioithieu {
+    width: 95%;
+    margin: 5px auto;
+}
+.slideshow {
+    margin: 5px auto;
+    width: 95%;
+}
+div.slideshow>img{
+    width:100%;
+}
+section.ads > div{
+    display: none;
+}
+h2 {
+    font-size: 18px;
+    width: 95%;
+    margin: 10px auto;
+}
+p {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(134, 88, 28, 0.112);
+}
+div.Dang-doan {
+    width: 95%;
+}
+div.Dang-doan>div{
+    width:30%;
+    margin:0 5px;
+}
+td {
+    font-size: 13px;
+}
+section.consecond {
+    display: block;
+    width: 95%;
+}
+table {
+    width: 100%;
+    margin: 5px 0 5px 10px;
+}
+section.consecond > div {
+    width: 100% !important;
+}
+div > iframe {
+    width: 100%;
+    margin: 5px !important;
+}
+.hdd {
+    width: 95%;
+    display: block !important;
+}
+.hdd > div {
+    width: 100%;
+}
+.foot {
+    display: block;
+}
+
+.menu1 {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.foot3 > div > iframe {
+    padding-left: 80px;
+}
+ul.menu2 {
+    display: block;
+}
+ul.menu2>li {
+    padding: 5px;
+}
+.toTop {
+    right: 10%;
+    font-size: 35px;
+}
+@media screen and (orientation: landscape) {
+    body {
+    background-color: gold;
+    }
+    /* khi chiều rộng lớn hơn chiều cao thì sẽ có màu gold , landscape*/
+}
