@@ -39,7 +39,6 @@ div.container
 nav> ul.menu{
     display:flex;
 }
-
 nav{
   background-color:rgb(2, 139, 2);
   margin-bottom:5px;
@@ -65,9 +64,9 @@ ul.menu>li>a{
     padding:10px;  
 }
 
-ul.menu>li>a>img{
-    width:20px;
-}
+ul.menu>li>a>i{
+    font-size:15px;
+ }
 ul.menu>li>a>span{
     display:block;
     font-weight: bold;
@@ -79,23 +78,6 @@ nav>ul.menu>li>a:hover{
     background-color:rgb(235, 27, 44);
     color:yellow;
 }
-
-/*input[type=text] {
-    background-color: white;
-    color: black;
-    outline:none;
-    box-sizing: border-box;
-  }
-
-  input[type=text]:focus {
-    width: 75%;
-  }
-  */
-
-/*div> button img{
-    width:10px;
-   }
-*/
 
 .con {
     width: 70%;

@@ -32,6 +32,10 @@ ul.menu > li span {
 nav>ul.menu >li{
     border: none;
 }
+#videot2 {
+    width: 575px !important;
+    height: 320px !important;
+}
 .con {
     width: 100%;
 }
@@ -40,11 +44,7 @@ nav>ul.menu >li{
     margin: 5px auto;
 }
 .slideshow {
-    margin: 5px auto;
-    width: 95%;
-}
-div.slideshow>img{
-    width:100%;
+   display: none;
 }
 section.ads > div{
     display: none;
